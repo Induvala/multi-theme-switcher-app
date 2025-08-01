@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Theme base styles */
+.theme-1 {
+  @apply bg-white text-gray-800 font-sans;
+}
+.theme-2 {
+  @apply bg-gray-900 text-white font-serif;
+}
+.theme-3 {
+  @apply bg-pink-100 text-purple-900 font-["Pacifico"];
+}
