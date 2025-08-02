@@ -26,7 +26,7 @@ const CardComponent: React.FC<CardProps> = ({ image, title, price, description, 
       height: '500px',
       position: 'relative'
     }}>
-      <div className='w-64 bg-gray-200"'><img className="w-80 h-80 " src={image} alt={title} />
+      <div className='bg-gray-200"'><img className="w-80 h-80 " src={image} alt={title} />
       </div>
       <h4 className="line-clamp-1 text-start" style={{ fontSize: '1.1rem', fontWeight: 'bold', margin: '0 0 10px' }}>{title}</h4>
       <span className="line-clamp-2"> {description}</span>

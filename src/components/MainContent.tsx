@@ -16,7 +16,7 @@ const Content: React.FC = () => {
 
 
   return (
-    <div>
+    <div className='p-4'>
       <h2 className="text-2xl font-bold mb-4">Welcome to the Themed App</h2>
       <p className="mb-4 max-w-xl">
         This is a sample paragraph that changes layout and style depending on the selected theme. Explore the look and feel of each theme using the dropdown.
@@ -25,7 +25,7 @@ const Content: React.FC = () => {
         Click Me
       </button>
 
-        <div className='grid grid-cols-1 sm:grid-cols-3 gap-4'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {products.map((item,index) => (
             <div
               key={index}

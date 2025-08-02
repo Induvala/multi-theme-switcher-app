@@ -10,7 +10,7 @@
   @apply bg-white text-gray-800 font-sans;
 }
 .theme-2 {
-  @apply bg-gray-900 text-white font-serif;
+  @apply bg-gray-800 text-blue-400 font-serif;
 }
 .theme-3 {
   @apply bg-pink-100 text-purple-900 font-["Pacifico"];

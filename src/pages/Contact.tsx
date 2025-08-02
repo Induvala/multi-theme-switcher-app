@@ -1,7 +1,7 @@
 
 function Contact() {
   return (
-     <section className="mt-10">
+     <section className="p-4 ml-4">
       <h2 className="text-xl font-bold mb-4">Contact Us</h2>
       <form className="max-w-lg space-y-4">
         <input
